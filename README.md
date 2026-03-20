@@ -1,18 +1,7 @@
 # Ecommerce Data Analysis
 
 ## Overview
-This project performs an end-to-end analysis of e-commerce data, transforming raw transactional data into actionable business insights and an interactive dashboard.
-
-It simulates a real-world data workflow, including data processing, analysis, visualization, and reporting.
-
----
-
-## Objectives
-- Analyze revenue distribution across product categories  
-- Identify top-performing products and customers  
-- Evaluate sales trends over time  
-- Build a clean and reproducible data pipeline  
-- Create an interactive dashboard for data exploration  
+End-to-end e-commerce data analysis project, transforming raw data into business insights and an interactive dashboard.
 
 ---
 
@@ -31,20 +20,18 @@ It simulates a real-world data workflow, including data processing, analysis, vi
 
 - data/ → raw and processed data  
 - src/ → data pipeline and analysis  
-- dashboard/ → interactive application  
-- reports/ → generated visualizations  
-- main.py → pipeline execution  
+- dashboard/ → interactive app  
+- reports/ → visual outputs  
+- main.py → execution pipeline  
 
 ---
 
 ## Data Pipeline
 
-The project follows a structured ETL pipeline:
-
-1. Data Loading (CSV files)  
-2. Data Transformation (joins and cleaning)  
-3. Feature Engineering (revenue calculation)  
-4. Data Export (processed dataset)  
+1. Data Loading  
+2. Data Transformation  
+3. Feature Engineering  
+4. Data Export  
 5. Analysis & Visualization  
 
 ---
@@ -81,8 +68,6 @@ The project follows a structured ETL pipeline:
 
 ## Dashboard
 
-An interactive dashboard was built using Streamlit to explore the data dynamically.
-
 <p align="center">
   <img src="reports/dashboard.png" width="800"/>
 </p>
@@ -91,15 +76,36 @@ An interactive dashboard was built using Streamlit to explore the data dynamical
 
 ## Key Insights
 
-- Electronics is the leading revenue category, indicating strong demand for tech products  
-- Revenue varies over time, suggesting possible seasonality patterns  
-- A small number of products generate a large portion of total revenue (Pareto effect)  
-- High-value customers contribute significantly to overall revenue  
+- Electronics is the leading revenue category  
+- Sales show temporal variation (possible seasonality)  
+- Revenue is concentrated in a small number of products  
+- High-value customers drive a significant portion of revenue  
 
 ---
 
 ## How to Run
 
 Install dependencies:
-```bash
 pip install -r requirements.txt
+
+Run pipeline:
+python main.py
+
+Run dashboard:
+streamlit run dashboard/app.py
+
+---
+
+## Dataset
+
+https://www.kaggle.com/datasets/marthadimgba/online-shop-2024
+
+---
+
+## Conclusion
+
+This project demonstrates:
+- Data analysis and transformation  
+- Business insight generation  
+- Data visualization  
+- Dashboard development  
