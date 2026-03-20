@@ -86,13 +86,13 @@ End-to-end e-commerce data analysis project, transforming raw data into business
 ## How to Run
 
 Install dependencies:
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 Run pipeline:
-python main.py
+    python main.py
 
 Run dashboard:
-streamlit run dashboard/app.py
+    streamlit run dashboard/app.py
 
 ---
 
