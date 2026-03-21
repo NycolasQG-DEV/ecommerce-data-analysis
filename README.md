@@ -1,7 +1,7 @@
 # Ecommerce Data Analysis
 
 ## Overview
-End-to-end e-commerce data analysis project, transforming raw data into business insights and an interactive dashboard.
+End-to-end e-commerce data analysis project focused on transforming raw data into actionable business insights and an interactive dashboard for decision-making.
 
 ---
 
@@ -18,21 +18,21 @@ End-to-end e-commerce data analysis project, transforming raw data into business
 
 ## Project Structure
 
-- data/ → raw and processed data  
-- src/ → data pipeline and analysis  
-- dashboard/ → interactive app  
-- reports/ → visual outputs  
-- main.py → execution pipeline  
+- data/ → raw and processed datasets  
+- src/ → data processing and analysis modules  
+- dashboard/ → interactive Streamlit application  
+- reports/ → generated visualizations and outputs  
+- main.py → pipeline execution entry point  
 
 ---
 
 ## Data Pipeline
 
 1. Data Loading  
-2. Data Transformation  
+2. Data Cleaning and Transformation  
 3. Feature Engineering  
 4. Data Export  
-5. Analysis & Visualization  
+5. Analysis and Visualization  
 
 ---
 
@@ -76,28 +76,29 @@ End-to-end e-commerce data analysis project, transforming raw data into business
 
 ## Key Insights
 
-- Electronics is the leading revenue category  
-- Sales show temporal variation (possible seasonality)  
-- Revenue is concentrated in a small number of products  
-- High-value customers drive a significant portion of revenue  
+- Electronics is the top-performing revenue category  
+- Sales exhibit temporal variation, indicating possible seasonality  
+- Revenue is highly concentrated in a small subset of products  
+- High-value customers contribute significantly to total revenue  
 
 ---
 
 ## How to Run
 
-Install dependencies:
+### Install dependencies
 pip install -r requirements.txt
 
-Run pipeline:
+### Run data pipeline
 python main.py
 
-Run dashboard:
+### Run dashboard
 streamlit run dashboard/app.py
 
 ---
 
 ## Dataset
 
+Public dataset available at:
 https://www.kaggle.com/datasets/marthadimgba/online-shop-2024
 
 ---
@@ -105,7 +106,9 @@ https://www.kaggle.com/datasets/marthadimgba/online-shop-2024
 ## Conclusion
 
 This project demonstrates:
-- Data analysis and transformation  
-- Business insight generation  
-- Data visualization  
-- Dashboard development  
+
+- End-to-end data analysis workflow  
+- Data cleaning and transformation techniques  
+- Business insight extraction  
+- Data visualization and reporting  
+- Interactive dashboard development  
