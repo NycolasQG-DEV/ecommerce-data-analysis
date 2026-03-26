@@ -5,3 +5,4 @@ venv/
 *.png
 *.jpeg
 *.csv
+!final_dataset.csv
