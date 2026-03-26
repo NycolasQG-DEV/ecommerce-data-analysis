@@ -4,5 +4,4 @@ __pycache__/
 venv/
 *.png
 *.jpeg
-*.csv
-!final_dataset.csv
+
